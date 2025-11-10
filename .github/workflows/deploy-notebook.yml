@@ -183,7 +183,7 @@ jobs:
               ]
             },
                         {
-              "task_key": "Transform_FC26_&_Olimpic",
+              "task_key": "Transform_FC26_Olimpic",
               "description": "Ejecuta notebook Transform_FC26_&_Olimpic con parámetros",
               "notebook_task": {
                 "notebook_path": "/py/scripts/main/Transform_FC26_&_Olimpic",
@@ -207,7 +207,7 @@ jobs:
               ]
             },
                         {
-              "task_key": "Load_FC26_&_Olimpic",
+              "task_key": "Load_FC26_Olimpic",
               "description": "Ejecuta notebook Load_FC26_&_Olimpic con parámetros",
               "notebook_task": {
                 "notebook_path": "/py/scripts/main/Load_FC26_&_Olimpic",
@@ -223,7 +223,7 @@ jobs:
               "max_retries": 2,
               "depends_on": [
                 {
-                  "task_key": "Transform_FC26_&_Olimpic"
+                  "task_key": "Transform_FC26_Olimpic"
                 }
               ]
             }

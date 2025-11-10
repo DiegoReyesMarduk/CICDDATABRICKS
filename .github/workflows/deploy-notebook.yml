@@ -199,7 +199,10 @@ jobs:
               "max_retries": 2,
               "depends_on": [
                 {
-                  "task_key": "Extract_FC26" "Extract_Olimpic"
+                  "task_key": "Extract_FC26"
+                },
+                {
+                  "task_key": "Extract_Olimpic"
                 }
               ]
             },

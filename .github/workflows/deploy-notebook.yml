@@ -160,7 +160,7 @@ jobs:
                   "task_key": "Preparacion_Ambiente"
                 }
               ]
-            }
+            },
                         {
               "task_key": "Extract_Olimpic",
               "description": "Ejecuta notebook Extract_Olimpic con parámetros",
@@ -181,7 +181,7 @@ jobs:
                   "task_key": "Preparacion_Ambiente"
                 }
               ]
-            }
+            },
                         {
               "task_key": "Transform_FC26_&_Olimpic",
               "description": "Ejecuta notebook Transform_FC26_&_Olimpic con parámetros",
@@ -202,7 +202,7 @@ jobs:
                   "task_key": "Extract_FC26" "Extract_Olimpic"
                 }
               ]
-            }
+            },
                         {
               "task_key": "Load_FC26_&_Olimpic",
               "description": "Ejecuta notebook Load_FC26_&_Olimpic con parámetros",

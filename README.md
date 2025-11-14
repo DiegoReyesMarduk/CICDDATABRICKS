@@ -4,7 +4,6 @@ el objetivo es crear pipeline/ETL a un fichero externo de internet y aplicar tod
 1. Fuente de datos:
 import kagglehub
 
-# Download latest versionw
 path = kagglehub.dataset_download("stefanydeoliveira/summer-olympics-medals-1896-2024")
 
 print("Path to dataset files:", path)
